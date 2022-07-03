@@ -1,0 +1,30 @@
+{
+  "name": "hub-leaderboard",
+  "version": "0.1.0",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "NODE_ENV=development nodemon server",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "dependencies": {
+    "@hope-ui/solid": "^0.6.1",
+    "@prisma/client": "^3.14.0",
+    "@stitches/core": "^1.2.8",
+    "eslint": "^8.16.0",
+    "eslint-plugin-solid": "^0.5.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "prisma": "^3.14.0",
+    "solid-js": "^1.4.3",
+    "solid-transition-group": "^0.0.10",
+    "vite-plugin-eslint": "^1.6.1"
+  }
+}
